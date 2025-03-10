@@ -3,7 +3,7 @@ import { createServer } from 'http';
 const app = express();
 const httpServer = createServer(app);
 
-const PORT = 5500;
+const PORT = 3000;
 
 app.get("/test", (req, res) => {
   res.send("Hello from the test server!");
